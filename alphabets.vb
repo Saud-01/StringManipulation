@@ -15,6 +15,7 @@
         Console.Write("Input String: ")
         Str1 = Console.ReadLine
 
+
         For counter = 1 To Len(Str1)
             letter = Mid(Str1, counter, 1)
             If LCase(letter) < "a" Or LCase(letter) > "z" Then
@@ -24,11 +25,10 @@
             End If
         Next
 
-        Console.WriteLine(alnum)
-        Console.WriteLine(Noalnum)
+        Console.WriteLine(alnum, "Alphabets")
+        Console.WriteLine(Noalnum, "Non Alphabets")
         Console.ReadKey()
 
-
     End Sub
-End Module
 
+End Module
