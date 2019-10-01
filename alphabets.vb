@@ -3,21 +3,21 @@
     Sub Main()
         Dim Str1 As String
         Dim counter, alnum, Noalnum As Integer
-        Dim Chr As String
+        Dim letter As String
 
 
         Str1 = ""
-        Chr = ""
+        letter = ""
         counter = 0
         alnum = 0
         Noalnum = 0
 
         Console.Write("Input String: ")
-        Str1 = Console.Read
+        Str1 = Console.ReadLine
 
         For counter = 1 To Len(Str1)
-            Chr = Mid(Str1, counter, 1)
-            If LCase(Chr) < "a" Or LCase(Chr) > "z" Then
+            letter = Mid(Str1, counter, 1)
+            If LCase(letter) < "a" Or LCase(letter) > "z" Then
                 Noalnum = Noalnum + 1
             Else
                 alnum = alnum + 1
