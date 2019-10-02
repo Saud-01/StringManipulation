@@ -9,6 +9,7 @@ Module Module1
             counter = 0
             letter = ""
             rStr = ""
+            Con = ""
 
             Console.Write("Input your String: ")
             Str = Console.ReadLine
