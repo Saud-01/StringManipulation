@@ -1,9 +1,8 @@
 Module Module1
 
     Sub Main()
-        Dim Str1 As String
+        Dim Str1, letter As String
         Dim counter, alnum, Noalnum As Integer
-        Dim letter As String
 
 
         Str1 = ""
