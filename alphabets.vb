@@ -1,4 +1,4 @@
-﻿Module Module1
+Module Module1
 
     Sub Main()
         Dim Str1 As String
@@ -25,10 +25,9 @@
             End If
         Next
 
-        Console.WriteLine(alnum, "Alphabets")
-        Console.WriteLine(Noalnum, "Non Alphabets")
+        Console.WriteLine(alnum & ", " & "Alphabets")
+        Console.WriteLine(Noalnum & ", " & "Non Alphabets")
         Console.ReadKey()
-
     End Sub
 
 End Module
