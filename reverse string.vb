@@ -1,9 +1,10 @@
-﻿Module Module1
+Module Module1
 
     Sub Main()
-        Dim Str, letter, rStr As String
+        Dim Con, Str, letter, rStr As String
         Dim counter As Integer
 
+        Do
             Str = ""
             counter = 0
             letter = ""
@@ -17,8 +18,13 @@
                 rStr = rStr & letter
             Next
 
-            Console.Write(rStr)
-        Console.ReadKey()
+            Console.WriteLine(rStr)
+            Console.Write("Do you want to continue ?: ")
+            Con = Console.ReadLine
+
+            Con = LCase(Con)
+
+        Loop Until Con = "no"
 
     End Sub
 
