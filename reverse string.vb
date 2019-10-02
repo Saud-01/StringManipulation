@@ -1,7 +1,8 @@
 Module Module1
 
     Sub Main()
-        Dim Con, Str, letter, rStr As String
+       
+ Dim Con, Str, letter, rStr As String
         Dim counter As Integer
 
         Do
@@ -20,6 +21,8 @@ Module Module1
             Next
 
             Console.WriteLine(rStr)
+            Console.WriteLine(" ")
+
             Console.Write("Do you want to continue ?: ")
             Con = Console.ReadLine
 
