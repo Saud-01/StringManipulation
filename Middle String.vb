@@ -6,7 +6,7 @@
 
         Do
 
-            Middle = " "
+            Middle = ""
             str1 = ""
             con = ""
             sp = 0
